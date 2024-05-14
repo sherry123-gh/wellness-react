@@ -8,11 +8,11 @@
     --white:#ffffff;
     --max-width:1200px;
 }
-*{
+*{{
     padding: 0;
     margin:0;
     box-sizing: border-box;
-}
+}}
 .section_container{
     max-width:var(--max-width);
     margin:auto;
