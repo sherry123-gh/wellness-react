@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const Home = () => {
     return ( 
@@ -112,7 +113,17 @@ const Home = () => {
                     <img src="src/Images/body photo.jpg" alt="" height="400" width="300"/>
                </div>        
             </section>
-            <footer className="footer">
+            <Footer/>
+            
+
+        </div>
+     );
+}
+ 
+export default Home;
+
+{/*
+<footer className="footer">
                 <div className="section_container footer_container">
                     <div className="footer_col">
                         <h3>Live<span>Good</span></h3>
@@ -157,10 +168,4 @@ const Home = () => {
                      </div>
                 </div>
             </footer>
-            
-
-        </div>
-     );
-}
- 
-export default Home;
+*/}
