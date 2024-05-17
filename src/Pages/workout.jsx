@@ -135,7 +135,7 @@ const Workout = () => {
           </p>
         </div>
         </bodythree>
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',paddingBottom:'7px'}}>
           <strong>
             {" "}
             Wednesday: HIIT (High-Intensity Interval Training) for 30 minutes
@@ -145,9 +145,9 @@ const Workout = () => {
           <img
             src="https://octanefitness.com/app/uploads/2016/01/elliptical-workouts-hiit.jpg"
             alt="HIIT image"
-            style={{ width: "50%" }}
+            style={{ width: "50%",padding:'7px'}}
           />
-          <p style={{ flexGrow: "1", color: "#12ac8e" }}>
+          <p style={{ flexGrow: "1", color: "#12ac8e",fontSize:'18px', paddingLeft:'7px' }}>
             A HIIT (High-Intensity Interval Training) session is a powerful
             workout that combines bursts of intense exercise with short recovery
             periods. In just 20 minutes, HIIT delivers a full-body workout,
@@ -155,7 +155,7 @@ const Workout = () => {
             high-intensity intervals and brief rest periods challenges the
             cardiovascular system and builds endurance.
           </p>
-          <p style={{ color: "#f87103", flexGrow: "1" }}>
+          <p style={{ color: "#f87103", flexGrow: "1" ,fontSize:'18px'}}>
             HIIT is known for its efficiency, making it ideal for those with
             busy schedules. Whether you're doing bodyweight exercises,
             sprinting, or using equipment, this fast-paced session leaves you
@@ -163,30 +163,31 @@ const Workout = () => {
             beyond the workout.
           </p>
         </div>
-        <marquee behavior="scroll" direction="left">
+        <marquee style={{backgroundColor:'#fdb67b',fontWeight:'bold'}} behavior="scroll" direction="right">
           KEEP ON PUSHING.....
         </marquee>
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',paddingBottom:'7px'}}>
           <strong> Thursday:</strong> Jumping rope for 15 minutes
         </h3>
         <div style={{ display: "flex", alignItems: "center" }}>
           <img
             src="https://runningmagazine.ca/wp-content/uploads/2019/09/skipping-copy-e1568127526898.jpg"
             alt="jumping rope"
-            style={{ width: "50%" }}
+            style={{ width: "50%",padding:'7px', borderRadius:'25px' }}
           />
-          <p style={{ flexGrow: "1",padding:'15px'}}>
+          <p style={{ flexGrow: "1",padding:'15px',fontSize:'18px',padding:'10px'}}>
             Jumping rope involves swinging a rope over the body and jumping over
             it repeatedly, engaging multiple muscle groups for a full-body
             workout. It's versatile, offering various techniques for all fitness
             levels, from basic jumps to advanced tricks.
-          </p>
-          <p style={{ color: "#f87103", flexGrow: "1" }}>
+          
+          <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px' }}>
             This simple yet effective exercise improves cardiovascular health,
             coordination, and agility. With its portability and affordability,
             jumping rope is an excellent addition to any workout routine,
             providing a quick and challenging way to boost fitness and burn
             calories.
+          </p>
           </p>
         </div>
         <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
