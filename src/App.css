@@ -463,3 +463,131 @@ span{
     background: linear-gradient(to right, #a2fc60, #fdb67b);
     padding: 3rem;
 }
+/*workoutpage */
+.dynamic-background{
+    background: linear-gradient(to right, #9fff5f, #feb47b);
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+.content-container{
+    margin: 20px auto;
+    padding: 5px;
+    background: linear-gradient(45deg, #adf16e 25%, transparent 25%), linear-gradient(-45deg, #e6e6e6 25%, transparent 25%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#showcase{
+    overflow: hidden;
+    padding: 50px 0;
+}
+.work{
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.text-overlay{
+    
+    position: absolute;
+    bottom: 25px;
+    left: 10%;
+    width: 40%;
+    background-color:white;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+.text-overlay:hover{
+    transform: scale(1.1);
+    transition: background 0.5s, transform 0.5s;
+    background-color: #12ac8e;
+}
+.service-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-images img {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+#services {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
+    grid-gap: 50px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.services-list div {
+    background: #03cea2;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 15px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: yellowgreen;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    background: #ee8a37;
+    transform: translateY(10px);
+}
+.lastcontainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 850px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.routine{
+    padding-top: 35px;
+    background: linear-gradient(to left, transparent 50%, #f1f0b4 50%);
+}
+.bodythree{
+    display: flex;
+    align-items: center;
+}

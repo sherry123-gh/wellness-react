@@ -29,7 +29,7 @@ const Workout = () => {
         </nav>
       </header>
       <div className="dynamic-background">
-        <h1 style={{ color: "#12ac8e" }}>
+        <h1 style={{ color: "#12ac8e", textAlign:"center" }}>
           Welcome To The Workout Routine.
           <br />A Weekly Workout Seesion
           <br />
@@ -38,7 +38,7 @@ const Workout = () => {
         <p>Get ready to sweat and achieve your fitness goals!</p>
       </div>
       <div className="content-container">
-        <p>
+      <p style={{ fontSize:'20px'}}>
           Welcome to my weekly workout routine! Whether you're looking to lose
           weight, maintain your shape, or simply stay active, you've come to the
           right place. Below, you'll find sample workout plans tailored to
@@ -47,44 +47,22 @@ const Workout = () => {
           healthier lifestyle!
         </p>
       </div>
-      <div id="showcase">
-        <div className="container">
-          <h1
+      <h1
             className="sub-title"
-            style={{ color: "#12ac8e", letterSspacing: "5px" }}
+            style={{ color: "#12ac8e", letterSspacing: "5px", padding:'10px',marginLeft:'60px' }}
           >
             GOOD HEALTH STARTS NOW
           </h1>
-          <div style={{ textAlign: "center" }} className="work">
-            <img
-              src="https://t4.ftcdn.net/jpg/01/79/81/77/360_F_179817756_QzTocli57q9G6a1Oe7kJtoMS5dNMU8cl.jpg"
-              alt="30 mintime workout"
-              style={{
-                height: "400px",
-                paddingLeft: "50px",
-                paddingRight: "50px",
-              }}
-            />
-            <div className="text-overlay">
-              <h1>
-                <a
-                  style={{ color: "#fa9643" }}
-                  href="https://darebee.com/workouts.html"
-                >
-                  {" "}
-                  Workouts
-                </a>
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      <section className="motivation">
-        <h1 style={{ color: "#12ac8e", letterSpacing: "5px" }}>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <img
+            src="https://t4.ftcdn.net/jpg/01/79/81/77/360_F_179817756_QzTocli57q9G6a1Oe7kJtoMS5dNMU8cl.jpg"
+            alt="HIIT image"
+            style={{ width: "50%", paddingRight:'50px',borderRadius:'35px' }}
+          />
+          <h1 style={{ color: "#9fff5f", letterSpacing: "5px", textAlign:'center' }}>
           Motivation Comes First....
         </h1>
-        <h2>Embracing the Journey Towards Better Health</h2>
-        <p>
+          <p style={{ flexGrow: "1", color: "#12ac8e", padding:'10px', fontSize:'25px' }}>
           <strong>"Success is not final, failure is not fatal:</strong> It is
           the courage to continue that counts." - Winston Churchill. In the
           journey toward better health and fitness, setbacks are inevitable,
@@ -93,10 +71,8 @@ const Workout = () => {
           our resilience and determination to persevere. Every time we lace up
           our shoes or step onto the yoga mat, we demonstrate courage and
           commitment to our well-being.
-        </p>{" "}
-        <br />
-        <p>
-          {" "}
+          
+          <p style={{ color: "#f87103", flexGrow: "1", padding:'10px' }}>
           Embracing this mindset, we acknowledge that progress is not linear;
           it's about showing up, giving our best, and staying the course despite
           challenges. With each workout, we build strength, endurance, and
@@ -104,13 +80,16 @@ const Workout = () => {
           version of ourselves. So, let us find courage in the face of
           adversity, knowing that every step forward, no matter how small,
           brings us closer to a healthier, happier life.
-        </p>
-        <h3>
+          </p>
+          </p>
+        </div>
+      <div className="routine">
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong> Monday: Running for 30 minutes</strong>
         </h3>
         <div style={{ display: "flex", alignItems: "center" }}>
           <img
-            src="https://inhabitat.com/wp-content/blogs.dir/1/files/2018/02/Jogging-Environment-889x592.jpg"
+            src="https://t4.ftcdn.net/jpg/06/01/65/49/360_F_601654907_FgISykN0GQp39MfRAlgg3IBmLDVIZYYk.jpg"
             alt="running image"
             style={{ width: "50%", height: "50vh" }}
           />
@@ -127,14 +106,18 @@ const Workout = () => {
             core, and cardiovascular system.
           </p>
         </div>
-        <h3>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong> Tuesday: Cycling for 45 minutes</strong>
         </h3>
+        <bodythree>
+        <p style={{flexGrow: '1'}}> Make Cycling Part of You..
+                         A 45-minute cycling session is a dynamic cardio workout that boosts fitness and burns calories efficiently.
+                        Engaging large muscle groups in the legs and core, it strengthens endurance and promotes fat loss. </p>
         <div style={{ display: "flex", alignItems: "center" }}>
           <img
             src="https://www.health.com/thmb/KIpMvWkBlA5sd5ouYCRJrylo3To=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-135537873-2000-3b57976b084d4731a41f801c6b1af884.jpg"
             alt="cycling image"
-            style={{ width: "50%" }}
+            style={{ width: "50%",padding:'10px',borderRadius:'40px' }}
           />
           <p style={{ flexGrow: "1" }}>
             A 45-minute cycling session is a dynamic cardio workout that boosts
@@ -150,7 +133,8 @@ const Workout = () => {
             ahead.
           </p>
         </div>
-        <h3>
+        </bodythree>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong>
             {" "}
             Wednesday: HIIT (High-Intensity Interval Training) for 30 minutes
@@ -181,7 +165,7 @@ const Workout = () => {
         <marquee behavior="scroll" direction="left">
           KEEP ON PUSHING.....
         </marquee>
-        <h3>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong> Thursday:</strong> Jumping rope for 15 minutes
         </h3>
         <div style={{ display: "flex", alignItems: "center" }}>
@@ -204,7 +188,7 @@ const Workout = () => {
             calories.
           </p>
         </div>
-        <h3>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong> Friday: Swimming for 30 minutes</strong>
         </h3>
         <div style={{ display: "flex", alignItems: "center" }}>
@@ -229,14 +213,14 @@ const Workout = () => {
             contribute to a healthy and active lifestyle
           </p>
         </div>
-        <h3>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong>
             {" "}
             Saturday: Circuit training (mix of cardio and strength exercises)
             for 40 minutes
           </strong>
         </h3>
-        <p>
+        <p style={{ flexGrow: "1",fontWeight:'bold', marginLeft:'20px' }}>
           Circuit training blends strength and cardio exercises in a
           time-efficient format. With minimal rest between drills, it targets
           multiple muscle groups and boosts heart rate for calorie burn and
@@ -250,6 +234,7 @@ const Workout = () => {
             height: "auto",
             display: "block",
             borderRadius: "10%",
+            padding:'10px'
           }}
         />
         <p style={{ columnCount: "2" }}>
@@ -271,16 +256,16 @@ const Workout = () => {
           Rotate through each drill for a challenging full-body workout that
           enhances strength, endurance, and overall fitness.
         </p>
-        <h3>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong> Sunday: Rest day</strong>
         </h3>
         <div style={{ display: "flex", alignItems: "center" }}>
           <img
             src="https://images.ctfassets.net/0k812o62ndtw/1Mln8WZSFEVPMiHmV6Q7UA/b423e071cd0f056651979ea94b2b3ce4/FitnessHangover_endb1021678c8f2ed2ac0e7653d1ef5cd6.jpg?fm="
             alt="lady resting"
-            style={{ width: "50%" }}
+            style={{ width: "50%", padding:'10px', borderRadius:'35px' }}
           />
-          <p style={{ flexGrow: "1", color: "#12ac8e" }}>
+          <p style={{ flexGrow: "1", color: "#12ac8e", marginLeft:'20px' }}>
             Rest days are crucial for allowing the body to recover and adapt to
             the stresses of exercise, preventing burnout and reducing the risk
             of injury. Sunday, often regarded as a traditional day of rest,
@@ -298,15 +283,15 @@ const Workout = () => {
             challenges in the week ahead.
           </p>
         </div>
-        {/*<div>
-                    <h2>BELOW IS A 30 MINUTE WORKOUT THAT CAN BE FOLLOWED......</h2>
+        <div>
+                    <h2 style={{ textAlign:'center', marginTop:'15px', marginBottom:'10px', color:'#555'}}>BELOW IS A 30 MINUTE WORKOUT THAT CAN BE FOLLOWED......</h2>
                     <div className="last-container">
                         <div className="video-container">
-                            <iframe width="648" height="365" src="https://www.youtube.com/embed/jKTxe236-4U" title="30 MIN FULL BODY WORKOUT - Apartment & Small Space Friendly (No Equipment, No Jumping)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen><iframe/>     
-                        <div/>
+                            <iframe width="648" height="365" src="https://www.youtube.com/embed/jKTxe236-4U" title="30 MIN FULL BODY WORKOUT - Apartment & Small Space Friendly (No Equipment, No Jumping)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
+                        </div>
                     </div>
-                </div>*/}
-        <p>
+                </div>
+        <p style={{marginTop:'15px', marginBottom:'10px', fontWeight:'bold'}}>
           Got it! Here's a paragraph written in plain text: "After following
           along with the energizing workout video above, you'll feel invigorated
           and ready to take on the day! Whether you're exercising in a small
@@ -316,7 +301,7 @@ const Workout = () => {
           requiring no equipment or jumping. Get ready to elevate your fitness
           routine and embrace a healthier lifestyle!"
         </p>
-      </section>
+      </div>
       <div id="Services">
         <div className="container">
           <div className="services-list">
