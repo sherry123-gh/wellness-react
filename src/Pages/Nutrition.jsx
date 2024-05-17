@@ -1,7 +1,26 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import { useState, useEffect } from "react";
 
 const Nutrition = () => {
+  let [text, setText] = useState(null);
+
+  const fetchData = () => {
+    let apiUrl = "http://localhost:1337/api/contents?populate=*";
+    fetch(apiUrl)
+      .then((response) => {
+        return response.json();
+      })
+      .then((dataObject) => {
+        let textData = dataObject.data;
+        setText(textData);
+      });
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div>
       <header>
@@ -10,7 +29,7 @@ const Nutrition = () => {
             Live<span>Good</span>
           </div>
           <ul className="nav-links">
-          <Link to="/">
+            <Link to="/">
               <li className="link">HOME</li>
             </Link>
             <Link>
@@ -67,25 +86,18 @@ const Nutrition = () => {
           <div>
             <img src="src/Images//img-1.avif" alt="image for diet" />
           </div>
-          <div>
-            <h3 className="hs">
-              Why Nutrition is Important for a Healthy and Balanced Diet
-            </h3>
-            <p className="txt">
-              A healthy, balanced diet looks different for each person, as
-              nutrition needs vary based on gender, height, weight, activity
-              level, and many more factors. When thinking about what is
-              "healthy" and "balanced" for you, there are many considerations.
-              Think about taste preferences, nutrition needs, cooking ability,
-              medical conditions, budget, and more. Planning a daily menu isn't
-              difficult as long as each meal and snack has some protein, fiber,
-              complex carbohydrates, and a little bit of fat.1 USDA. 2020-2025
-              Dietary Guidelines for Americans. You may want to plan
-              approximately 100 to 250 calories for each snack and 300 to 600
-              calories per meal; however, you may need more or less depending on
-              your hunger levels and energy needs.
-            </p>
-          </div>
+          {text !== null ? (
+            text.map((ele) => {
+              return (
+                <div>
+                  <h3 className="hs">{ele.attributes.title}</h3>
+                  <p className="txt">{ele.attributes.para}</p>
+                </div>
+              );
+            })
+          ) : (
+            <p>Loading from strapi.....</p>
+          )}
         </div>
 
         <div className="cont">
@@ -326,8 +338,7 @@ const Nutrition = () => {
         </div>
       </div>
 
-      <Footer/>
-          
+      <Footer />
     </div>
   );
 };
