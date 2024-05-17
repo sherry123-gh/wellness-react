@@ -62,7 +62,7 @@ const Workout = () => {
           <h1 style={{ color: "#9fff5f", letterSpacing: "5px", textAlign:'center' }}>
           Motivation Comes First....
         </h1>
-          <p style={{ flexGrow: "1", color: "#12ac8e", padding:'10px', fontSize:'25px' }}>
+          <p style={{ flexGrow: "1", color: "#12ac8e", padding:'10px', fontSize:'18px' }}>
           <strong>"Success is not final, failure is not fatal:</strong> It is
           the courage to continue that counts." - Winston Churchill. In the
           journey toward better health and fitness, setbacks are inevitable,
@@ -89,17 +89,17 @@ const Workout = () => {
         </h3>
         <div style={{ display: "flex", alignItems: "center" }}>
           <img
-            src="https://t4.ftcdn.net/jpg/06/01/65/49/360_F_601654907_FgISykN0GQp39MfRAlgg3IBmLDVIZYYk.jpg"
+            src="src/Images//running-image.png"
             alt="running image"
-            style={{ width: "50%", height: "50vh" }}
+            style={{ width: "50%", height: "50vh",marginLeft:'5%' }}
           />
-          <p style={{ flexGrow: "1", color: "#12ac8e" }}>
+          <p style={{ flexGrow: "1", color: "#12ac8e",padding:'10px',fontSize:'18px' }}>
             With its high-intensity nature, running elevates heart rate and
             promotes fat loss in a relatively short time. Whether on the
             treadmill or outdoors, this invigorating session leaves you feeling
             energized and accomplished, ready to tackle whatever comes your way.
           </p>
-          <p style={{ color: "#f87103", flexGrow: "1" }}>
+          <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px' }}>
             Running for 30 minutes offers a quick and effective cardio workout,
             perfect for boosting endurance and burning calories. Engaging
             multiple muscle groups throughout the body, it strengthens the legs,
@@ -110,7 +110,7 @@ const Workout = () => {
           <strong> Tuesday: Cycling for 45 minutes</strong>
         </h3>
         <bodythree>
-        <p style={{flexGrow: '1'}}> Make Cycling Part of You..
+        <p style={{flexGrow: '1',fontWeight:'bold', marginLeft:'20px'}}> Make Cycling Part of You..
                          A 45-minute cycling session is a dynamic cardio workout that boosts fitness and burns calories efficiently.
                         Engaging large muscle groups in the legs and core, it strengthens endurance and promotes fat loss. </p>
         <div style={{ display: "flex", alignItems: "center" }}>
@@ -119,18 +119,19 @@ const Workout = () => {
             alt="cycling image"
             style={{ width: "50%",padding:'10px',borderRadius:'40px' }}
           />
-          <p style={{ flexGrow: "1" }}>
+          <p style={{ flexGrow: "1",fontSize:'18px',padding:'10px' }}>
             A 45-minute cycling session is a dynamic cardio workout that boosts
             fitness and burns calories efficiently. Engaging large muscle groups
             in the legs and core, it strengthens endurance and promotes fat
             loss.
-          </p>
-          <p style={{ color: "#f87103", flexGrow: "1" }}>
+          
+          <p style={{ color: "#f87103", flexGrow: "1",padding:'10px',fontSize:'18px' }}>
             With its low-impact nature, cycling is accessible to all fitness
             levels, offering a refreshing way to elevate heart rate and improve
             cardiovascular health. Whether indoors or outdoors, this energizing
             session leaves you feeling invigorated and ready to tackle the day
             ahead.
+          </p>
           </p>
         </div>
         </bodythree>
@@ -174,8 +175,8 @@ const Workout = () => {
             alt="jumping rope"
             style={{ width: "50%" }}
           />
-          <p style={{ flexGrow: "1" }}>
-            umping rope involves swinging a rope over the body and jumping over
+          <p style={{ flexGrow: "1",padding:'15px'}}>
+            Jumping rope involves swinging a rope over the body and jumping over
             it repeatedly, engaging multiple muscle groups for a full-body
             workout. It's versatile, offering various techniques for all fitness
             levels, from basic jumps to advanced tricks.
