@@ -49,15 +49,15 @@ const Health = () => {
                 Empower your well-being with these invaluable healthy tips designed to invigorate your mind, body, and soul.
                 Here's an example of transformative tips given on this page to fuel your journey towards optimal health and vitality.
               </p>
-              <ul>
-                <li>Diet and Nutrition Tips</li>
-                <li>Skin Health Tips</li>
-                <li>Weight Loss and Gain Tips</li>
-                <li>Hydration Tips</li>
-                <li>Younger Looks</li>
-                <li>Hair Growth Tips</li>
-                <li>Suplements for energy.*among others</li>
-              </ul>
+              
+                <h3>-Diet and Nutrition Tips</h3>
+                <h3>-Skin Health Tips</h3>
+                <h3>-Weight Loss and Gain Tips</h3>
+                <h3>-Hydration Tips</h3>
+                <h3>-Younger Looks</h3>
+                <h3>-Hair Growth Tips</h3>
+                <h3>-Suplements for energy.*among others</h3>
+              
             </div>
           </div>
         </section>
@@ -73,7 +73,7 @@ const Health = () => {
             <div id="diet"><img src="src/Images//diet-and-nutrition.jpg" alt="image" width=""/></div>
             
 
-            <h3>Eat More Plant-Based Foods</h3>
+            <h3>-Eat More Plant-Based Foods</h3>
             <p>
               Incorporate more fruits vegetables, legumes, nuts, and seeds into your meals for added nutrients and fiber.
             </p>
@@ -171,32 +171,32 @@ const Health = () => {
 
                 <div>
                   <h4>Several fruits offer great benefits for skin health. Here are 5 of them that come top on that list.</h4>
-                  <ul>
-                    <li>Berries: Rich in antioxidants like vitamin C, berries such as strawberries, blueberries, and raspberries help fight free radicals that can damage skin cells and accelerate aging.</li>
-                    <li>Oranges: Loaded with vitamin C, oranges promote collagen production, which helps keep the skin firm and youthful-looking.</li>
-                    <li>Avocado: Packed with healthy fats and vitamin E, avocados moisturize and nourish the skin, promoting a healthy glow.</li>
-                    <li>Papaya: Contains an enzyme called papain, which acts as a natural exfoliant, removing dead skin cells and promoting skin renewal.</li>
-                    <li>Watermelon: High in water content hydrates the skin, while vitamins A and C help repair and protect against sun damage.</li>
-                  </ul>
+                  
+                    <h3>Berries:</h3><p> Rich in antioxidants like vitamin C, berries such as strawberries, blueberries, and raspberries help fight free radicals that can damage skin cells and accelerate aging.</p>
+                    <h3>Oranges:</h3><p> Loaded with vitamin C, oranges promote collagen production, which helps keep the skin firm and youthful-looking.</p>
+                    <h3>Avocado:</h3><p> Packed with healthy fats and vitamin E, avocados moisturize and nourish the skin, promoting a healthy glow.</p>
+                    <h3>Papaya:</h3><p> Contains an enzyme called papain, which acts as a natural exfoliant, removing dead skin cells and promoting skin renewal.</p>
+                    <h3>Watermelon:</h3><p> High in water content hydrates the skin, while vitamins A and C help repair and protect against sun damage.</p>
+                  
                   <br/>
                   <h4>Vegetables play a crucial role in maintaining healthy skin, due to their abundance od vitamins, minerals and anti-oxidants.<br/>Here are 5 vegetables known for their skin-nourishing properties.</h4>
-                  <ul>
-                    <li>Spinach: Rich in vitamina A, C and E, as well as antibiotics, spinach helps to repar and protect the skin from damage caused by UV rays and environmental polutants.</li>
-                    <li>Sweet potatoes: Loaded with beta-carotene, sweet potatoes are converted into vitaminA in the body, which protects skin cell turnover and contributes to a glowing complexion.</li>
-                    <li>Bell papers: High in vitamin C, bell papers help boost collagen production, which maintains skin elasticity premature aging.</li>
-                    <li>Carrots: Another excellent source of beta-carotene, carrots contribute to skin health by promoting cell renewal and protected against sun damage.</li>
-                    <li>Broccoli: Packed with Vitamin A, C and K, as well as anti-biotics like sulphoraphane, broccoli helps detoxify the skin and commbat inflammation, leading to clearer complexion.</li>
-                  </ul>
+                  
+                    <h3>Spinach: </h3><p>Rich in vitamina A, C and E, as well as antibiotics, spinach helps to repar and protect the skin from damage caused by UV rays and environmental polutants.</p>
+                    <h3>Sweet potatoes:</h3><p> Loaded with beta-carotene, sweet potatoes are converted into vitaminA in the body, which protects skin cell turnover and contributes to a glowing complexion.</p>
+                    <h3>Bell papers:</h3><p> High in vitamin C, bell papers help boost collagen production, which maintains skin elasticity premature aging.</p>
+                    <h3>Carrots: </h3><p>Another excellent source of beta-carotene, carrots contribute to skin health by promoting cell renewal and protected against sun damage.</p>
+                    <h3>Broccoli:</h3><p> Packed with Vitamin A, C and K, as well as anti-biotics like sulphoraphane, broccoli helps detoxify the skin and commbat inflammation, leading to clearer complexion.</p>
+                  
                 </div>
 
                 <h3>-Maintain a diet rich in omega-3 fatty acids for skin nourishments.</h3>
                 <p>Omega-3 fatty acids are type of polyunsaturated fat that are essential for overallhealth, including skin health. They primarily are found in fatty fish, certain nuts, seeds,<br/> and plant oils.Omega-3 fatty oils are crucial in maintaining the skin's lipid barrier which helps retain moisture and keep out irritants and toxins.</p>
                 <br/>
                   <h4>The two main types of omega-3 fatty acids beneficial for skin health are:</h4>
-                  <ul>
-                    <li>Eicosapentaenoic acid(EPA): EPA helps regulate oil production, reduce inflammation, and protect against sun damage. It can be found in fatty fish such as salmon, mackrel, and sardines.</li>
-                    <li>Docosahexaenoic acid(DHA): DHA is essential for maintaining the structural integrity  of skin cell membranes, promoting elasticity and smoothness like EPA, it is ambundant in fatty fish.</li>
-                  </ul>
+                  
+                    <h3>Eicosapentaenoic acid(EPA):</h3><p> EPA helps regulate oil production, reduce inflammation, and protect against sun damage. It can be found in fatty fish such as salmon, mackrel, and sardines.</p>
+                    <h3>Docosahexaenoic acid(DHA):</h3><p> DHA is essential for maintaining the structural integrity  of skin cell membranes, promoting elasticity and smoothness like EPA, it is ambundant in fatty fish.</p>
+                  
                   <h5>
                     Both EPA nad DHA are important for maintaining healthy skin, so incorporating sources of omega-3 fatty acids into your diet, such as fish or plant-based alternatives like flaxseeds, chia seeds, and walnuts, can benefit your skin's overall health and appearance.
                   </h5>
@@ -222,18 +222,18 @@ const Health = () => {
                       <h5>
                         Embarking on a weight loss journey can be both exciting and challenging. Whether you're looking to shed a few pounds for health reasons or to feel more confident in your ownskin, it's important to approach weight loss in a sustainable and healthy way. With that in mind, here are some practical tips to help you achieve your weight loss goals and improve your overall wellbeing.
                       </h5>
-                      <ul>
-                        <li>Stay Hydrated: Drink plenty of water throughout the day to stay hydrated and keep your metabolism functioning properly.</li>
-                        <li>Eat Mindfully: Pay attention toyour body's hunger and fullness cues, which will help you to prevent overeating and allow you to eat only when your body truly needs nourishment. Also avoid distractions while eating.</li>
-                        <li>Include Protein: Incorporate lean protein sources into your meals to help you feel ful and satisfied, for example; skinless chicken breast, turkey breast, fish, eggs, tofu, greek yogurt,lean beef, cottage cheese among others.</li>
-                        <li>Choose Whole foods: Opt for whole, unprocessed foods like fruits, vegetables, whole grains, and lean proteins instead of processed and packaged foods.</li>
-                        <li>Portion Control: Be mindful of portion sizes to avoid overeating, and use smaller plates and bowls to help control portions.</li>
-                        <li>Regular Exercise: Aim for atleast 30 minutes of moderate-intensity exercise most days of the week to help burn calories and improve overall health.</li>
-                        <li>Get Adequate Sleep: Aim for 7-9 hours of sleep per night, as inadequate sleep can disrupt hunger hormones and lead to weight gain.</li>
-                        <li>Manage Stress: Practice stress-reducing techniques such as meditation, deep breathing, or silence to help prevent emotional eating and promote weight loss.</li>
-                        <li>Limit Sugary Beverages: Cut back on sugary drinks like soda, and juice, opting for water, herbal tea, or sparkling water instead.</li>
-                        <li>Be Patient and Consistent: Rememeber that weight loss takes time and consistency, so be patient with yourself and stay committed to your healthy habits.</li>
-                      </ul>
+                      
+                        <h3>-Stay Hydrated:</h3><p> Drink plenty of water throughout the day to stay hydrated and keep your metabolism functioning properly.</p>
+                        <h3>-Eat Mindfully:</h3><p> Pay attention toyour body's hunger and fullness cues, which will help you to prevent overeating and allow you to eat only when your body truly needs nourishment. Also avoid distractions while eating.</p>
+                        <h3>-Include Protein:</h3><p> Incorporate lean protein sources into your meals to help you feel ful and satisfied, for example; skinless chicken breast, turkey breast, fish, eggs, tofu, greek yogurt,lean beef, cottage cheese among others.</p>
+                        <h3>-Choose Whole foods:</h3><p> Opt for whole, unprocessed foods like fruits, vegetables, whole grains, and lean proteins instead of processed and packaged foods.</p>
+                        <h3>-Portion Control:</h3><p> Be mindful of portion sizes to avoid overeating, and use smaller plates and bowls to help control portions.</p>
+                        <h3>-Regular Exercise:</h3><p> Aim for atleast 30 minutes of moderate-intensity exercise most days of the week to help burn calories and improve overall health.</p>
+                        <h3>-Get Adequate Sleep:</h3><p> Aim for 7-9 hours of sleep per night, as inadequate sleep can disrupt hunger hormones and lead to weight gain.</p>
+                        <h3>-Manage Stress: </h3><p>Practice stress-reducing techniques such as meditation, deep breathing, or silence to help prevent emotional eating and promote weight loss.</p>
+                        <h3>-Limit Sugary Beverages:</h3><p> Cut back on sugary drinks like soda, and juice, opting for water, herbal tea, or sparkling water instead.</p>
+                        <h3>-Be Patient and Consistent: </h3><p>Rememeber that weight loss takes time and consistency, so be patient with yourself and stay committed to your healthy habits.</p>
+                      
                     </div>
                   </section>
 
@@ -305,6 +305,47 @@ const Health = () => {
                       <h1><span>6. Tips For Younger Looks</span></h1>
 
                       <div id="younger"><img src="src/Images//younger.jpg" alt="image"/></div>
+
+                      <h3>-Stay Hydrated:</h3>
+                      <p>
+                        This keeps your skin smooth and hydrated, as well as can reduce the appearance of wrinkles.
+                      </p>
+                      <h3>-Eat a Balanced Diet:</h3>
+                      <p>
+                        Focus on fruits, vegies, lean proteins, and healthy fats to nourish your body and skin.
+                      </p>
+                      <h3>-Protect Your Skin:</h3>
+                      <p>
+                        Use sunscreens daily to prevent sun damage, which can accelerate aging.
+                      </p>
+                      <h3>-Get Enough Sleep:</h3>
+                      <p>
+                        Aim for 7-9 hours of quality sleep each night to allow your body time to repair and rejuvenate.
+                      </p>
+                      <h3>-Exercise regularly:</h3>
+                      <p>
+                        Regular physical activity promotes circulation and can give your skin a healthy glow.
+                      </p>
+                      <h3>-Managing Stress:</h3>
+                      <p>
+                        Chronic stress can accelerate aging, so find healthy ways to manage  stress, such as meditation.
+                      </p>
+                      <h3>-Moisturize:</h3>
+                      <p>
+                        Use a moisturizer suited to your skin type to keep it hydrated and supple.
+                      </p>
+                      <h3>-Avoid Smoking and Excessive Alcohol:</h3>
+                      <p>
+                        Smoking and excessive alcohol cosumption can accelerate aging and damage your skin.
+                      </p>
+                      <h3>-Stay Active Mentally:</h3>
+                      <p>
+                        Engage in activities that stimulate your mind, such as reading, puzzles, or learning something new.
+                      </p>
+                      <h3>-Consider Skincare Products:</h3>
+                      <p>
+                        Look for products containing ingredients like retinoid, vitamin C, and hyaluronic acid, which can help reduce wrinkles and improve skin texture. 
+                      </p>
                     </div>
                   </section>
 
@@ -313,6 +354,36 @@ const Health = () => {
                       <h1><span>7. Hair Growth Tips</span></h1>
 
                       <div id="hair"><img src="src/Images//hairgrowth.webp" alt="image"/></div>
+                      <h5>Practice these tips, and you will have results of stronger, thicker, longer and healthier hair.</h5>
+                      <h3>-Healthy Diet:</h3>
+                      <p>
+                        Ensure your diet includes protein, vitamins (especially A, D and E), and minerals like iron and zinc, which are essential for hair growth.
+                      </p>
+                      <h3>-Scalp Massage:</h3>
+                      <p>
+                        Massaging your scalp regularly can increase blood flow to hair follicles, promoting hair growth.
+                      </p>
+                      <h3>-Proper Hair Care:</h3>
+                      <p>
+                        Avoid excessive heat styling and harsh chemicals, and use a gentle shampoo and conditioner suitable for your hair type.
+                      </p>
+                      <h3>-Trim Regularly:</h3>
+                      <p>
+                        Trimming your hair regularly helps prevent split ends, which is crucial for healthy hair growth.
+                      </p>
+                      <h3>-Avoid Stress:</h3>
+                      <p>
+                        Stress can contribute to hair loss, so practice stress-reducing activities like meditation.
+                      </p>
+                      <h3>-Supplements:</h3>
+                      <p>
+                        Consider taking supplements like biotin, collagen, or omega-3 fatty acids, which are known to support hair health.
+                      </p>
+                      <h3>-Protect Your Hair:</h3>
+                      <p>
+                        Protect your hair from environmental damage by wearing hats or scarves when exposed to harsh weather conditions.
+                      </p>
+                      <h5>Remember, consistent care and patience are key when it comes to promoting hair growth.</h5>
                     </div>
 
                   </section>
@@ -322,6 +393,40 @@ const Health = () => {
                       <h1><span>8.Energy Suplememts</span></h1>
 
                       <div id="energy"><img src="src/Images//energy.webp" alt="image"/></div>
+                      <h5>There are so many energy supplements available, such as:</h5>
+                      <h3>-Caffeine Pills:</h3>
+                      <p>
+                        Provide a quick energy boost similar to coffee.
+                      </p>
+                      <h3>-B Vitamins:</h3>
+                      <p>
+                        Help convert food into energy.
+                      </p>
+                      <h3>-Creatine:</h3>
+                      <p>
+                        Commonly used by athletes to improve performance and energy levels.
+                      </p>
+                      <h3>-Adoptogens:</h3>
+                      <p>
+                        Herbs like ginseng and rhodila are believed to help the body adapt to stress and boost energy. 
+                      </p>
+                      <h3>-Coenzyme Q10:</h3>
+                      <p>
+                        Helps Produce energy in cells.
+                      </p>
+                      <h3>-Iron:</h3>
+                      <p>
+                        Deficiency can lead to fatigue, s supplementing can increase energy levels, especially for those with low iron levels.
+                      </p>
+                      <h3>-Ashwagandha:</h3>
+                      <p>
+                        An daptogenic herb that may help reduce stress and boost energy levels.
+                      </p>
+                      <h3>-Rhodiola Rosea:</h3>
+                      <p>
+                        Another adaptogenic herb that may improve energy levels and reduce fatigue.
+                      </p>
+                      <h5>Rememeber to consult with a healthcare professional before starting any new supplement regimen.</h5>
                     </div>
                   </section>
                 </main>
