@@ -587,7 +587,3 @@ span{
     padding-top: 35px;
     background: linear-gradient(to left, transparent 50%, #f1f0b4 50%);
 }
-.bodythree{
-    display: flex;
-    align-items: center;
-}

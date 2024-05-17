@@ -53,10 +53,10 @@ const Workout = () => {
           >
             GOOD HEALTH STARTS NOW
           </h1>
-        <div style={{ display: "flex", alignItems: "center" }}>
+        <div style={{ display: "flex", alignItems: "center",backgroundColor:'#f3f1f0'}}>
           <img
             src="https://t4.ftcdn.net/jpg/01/79/81/77/360_F_179817756_QzTocli57q9G6a1Oe7kJtoMS5dNMU8cl.jpg"
-            alt="HIIT image"
+            alt="workout image"
             style={{ width: "50%", paddingRight:'50px',borderRadius:'35px' }}
           />
           <h1 style={{ color: "#9fff5f", letterSpacing: "5px", textAlign:'center' }}>
@@ -117,7 +117,7 @@ const Workout = () => {
           <img
             src="https://www.health.com/thmb/KIpMvWkBlA5sd5ouYCRJrylo3To=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-135537873-2000-3b57976b084d4731a41f801c6b1af884.jpg"
             alt="cycling image"
-            style={{ width: "50%",padding:'10px',borderRadius:'40px' }}
+            style={{ width: "50%",padding:'10px',borderRadius:'40px',marginLeft:'15%' }}
           />
           <p style={{ flexGrow: "1",fontSize:'18px',padding:'10px' }}>
             A 45-minute cycling session is a dynamic cardio workout that boosts
@@ -190,23 +190,23 @@ const Workout = () => {
           </p>
           </p>
         </div>
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
+        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',padding:'7px'}}>
           <strong> Friday: Swimming for 30 minutes</strong>
         </h3>
         <div style={{ display: "flex", alignItems: "center" }}>
           <img
             src="https://www.monitor.co.ug/resource/image/1879340/landscape_ratio3x2/1620/1080/9a2fc6b029d0f6bb86f02100b8e4f6c3/TK/health07pix.jpg"
             alt="man swimming"
-            style={{ width: "50%" }}
+            style={{ width: "50%",padding:'8px',borderRadius:'30px',marginLeft:'8%' }}
           />
-          <p style={{ flexGrow: "1", color: "#12ac8e" }}>
+          <p style={{ flexGrow: "1", color: "#12ac8e",paddingLeft:'7px', fontSize:'18px' }}>
             Swimming for 30 minutes is a fantastic cardiovascular workout that
             engages the entire body, offering numerous health benefits. This
             low-impact exercise improves cardiovascular endurance, muscle
             strength, and flexibility while reducing stress on the joints.
             Whether doing laps in a pool or swimming in open water.
           </p>
-          <p style={{ color: "#f87103", flexGrow: "1" }}>
+          <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px' }}>
             It provides a full-body workout that targets muscles in the arms,
             legs, core, and back. Additionally, swimming enhances lung capacity
             and promotes relaxation, making it an excellent choice for both
@@ -267,7 +267,7 @@ const Workout = () => {
             alt="lady resting"
             style={{ width: "50%", padding:'10px', borderRadius:'35px' }}
           />
-          <p style={{ flexGrow: "1", color: "#12ac8e", marginLeft:'20px' }}>
+          <p style={{ flexGrow: "1", color: "#12ac8e", marginLeft:'20px',fontSize:'18px' }}>
             Rest days are crucial for allowing the body to recover and adapt to
             the stresses of exercise, preventing burnout and reducing the risk
             of injury. Sunday, often regarded as a traditional day of rest,
@@ -275,7 +275,7 @@ const Workout = () => {
             mentally. By taking a break from structured workouts and allowing
             muscles to repair and replenish glycogen stores.
           </p>
-          <p style={{ color: "#f87103", flexGrow: "1" }}>
+          <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px' }}>
             Rest days support muscle growth, recovery, and overall well-being.
             Whether spent engaging in light activities like walking or yoga, or
             simply relaxing and enjoying leisure time with family and friends,
@@ -416,7 +416,7 @@ const Workout = () => {
           </div>
           <div className="footer_bar">
             <div className="footer_bar_content">
-              <p>Copyright © 2024 code crushers. All rights rescerved</p>
+              <p>Copyright © 2024 code crushers. All rights reserved</p>
               <div className="footer_socials">
                 <i className="bx bxl-twitter"></i>
                 <i className="bx bxl-facebook"></i>
