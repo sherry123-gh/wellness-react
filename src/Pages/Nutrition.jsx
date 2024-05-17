@@ -1,6 +1,26 @@
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import { useState, useEffect } from "react";
 
 const Nutrition = () => {
+  let [text, setText] = useState(null);
+
+  const fetchData = () => {
+    let apiUrl = "http://localhost:1337/api/contents?populate=*";
+    fetch(apiUrl)
+      .then((response) => {
+        return response.json();
+      })
+      .then((dataObject) => {
+        let textData = dataObject.data;
+        setText(textData);
+      });
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <div>
       <header>
@@ -9,7 +29,7 @@ const Nutrition = () => {
             Live<span>Good</span>
           </div>
           <ul className="nav-links">
-          <Link to="/">
+            <Link to="/">
               <li className="link">HOME</li>
             </Link>
             <Link>
@@ -62,30 +82,26 @@ const Nutrition = () => {
           </h2>
         </div>
 
-        <div className="cont">
-          <div>
-            <img src="src/Images//img-1.avif" alt="image for diet" />
-          </div>
-          <div>
-            <h3 className="hs">
-              Why Nutrition is Important for a Healthy and Balanced Diet
-            </h3>
-            <p className="txt">
-              A healthy, balanced diet looks different for each person, as
-              nutrition needs vary based on gender, height, weight, activity
-              level, and many more factors. When thinking about what is
-              "healthy" and "balanced" for you, there are many considerations.
-              Think about taste preferences, nutrition needs, cooking ability,
-              medical conditions, budget, and more. Planning a daily menu isn't
-              difficult as long as each meal and snack has some protein, fiber,
-              complex carbohydrates, and a little bit of fat.1 USDA. 2020-2025
-              Dietary Guidelines for Americans. You may want to plan
-              approximately 100 to 250 calories for each snack and 300 to 600
-              calories per meal; however, you may need more or less depending on
-              your hunger levels and energy needs.
-            </p>
-          </div>
-        </div>
+        {text !== null ? (
+          text.map((ele) => {
+            return (
+              <div className="cont">
+                <div>
+                  <img
+                    src={`http://localhost:1337${ele.attributes.image.data.attributes.url}`}
+                    alt="image for diet"
+                  />
+                </div>
+                <div>
+                  <h3 className="hs">{ele.attributes.title}</h3>
+                  <p className="txt">{ele.attributes.para}</p>
+                </div>
+              </div>
+            );
+          })
+        ) : (
+          <p>Loading from strapi.....</p>
+        )}
 
         <div className="cont">
           <div className="back1">
@@ -325,62 +341,7 @@ const Nutrition = () => {
         </div>
       </div>
 
-      <footer className="footer">
-        <div className="section_container footer_container">
-          <div className="footer_col">
-            <h3>
-              Live<span>Good</span>
-            </h3>
-            <p>
-              We are honored to be a part of your healthcare journey and
-              committed to delivering compassionate, personalized, and top-notch
-              care every step of the way.
-            </p>
-            <p>
-              Trust us with your Health, and let us work together to achive the
-              best possible outcomes for you and your loved ones.
-            </p>
-          </div>
-          <div className="footer_col">
-            <h4>About Us</h4>
-            <p>Home</p>
-            <p>Services</p>
-            <p>About Us</p>
-            <p>Nutrition</p>
-            <p>Terms and Conditions</p>
-          </div>
-          <div className="footer_col">
-            <h4>Services</h4>
-            <p>Health Tips</p>
-            <p>Nutrition Plans</p>
-            <p>workout Routines</p>
-          </div>
-          <div className="footer_col">
-            <h4>Contact Us</h4>
-            <p>
-              <i className="bx bx-map"></i> Bugolobi, Luthuli Avenue
-            </p>
-            <p>
-              {" "}
-              <i className="bx bxl-gmail"></i> livegood23@gamil.com
-            </p>
-            <p>
-              <i className="bx bxs-phone"></i> (+256)753 574 262
-            </p>
-          </div>
-          <div className="footer_bar">
-            <div className="footer_bar_content">
-              <p>Copyright © 2024 code crushers. All rights rescerved</p>
-              <div className="footer_socials">
-                <i className="bx bxl-twitter"></i>
-                <i className="bx bxl-facebook"></i>
-                <i className="bx bxl-whatsapp"></i>
-                <i className="bx bxl-instagram"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
