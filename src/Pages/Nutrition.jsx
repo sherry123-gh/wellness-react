@@ -82,23 +82,26 @@ const Nutrition = () => {
           </h2>
         </div>
 
-        <div className="cont">
-          <div>
-            <img src="src/Images//img-1.avif" alt="image for diet" />
-          </div>
-          {text !== null ? (
-            text.map((ele) => {
-              return (
+        {text !== null ? (
+          text.map((ele) => {
+            return (
+              <div className="cont">
+                <div>
+                  <img
+                    src={`http://localhost:1337${ele.attributes.image.data.attributes.url}`}
+                    alt="image for diet"
+                  />
+                </div>
                 <div>
                   <h3 className="hs">{ele.attributes.title}</h3>
                   <p className="txt">{ele.attributes.para}</p>
                 </div>
-              );
-            })
-          ) : (
-            <p>Loading from strapi.....</p>
-          )}
-        </div>
+              </div>
+            );
+          })
+        ) : (
+          <p>Loading from strapi.....</p>
+        )}
 
         <div className="cont">
           <div className="back1">
