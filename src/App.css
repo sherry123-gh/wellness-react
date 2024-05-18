@@ -477,6 +477,10 @@ span{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.start-view{
+    display: flex;
+    
+}
 #showcase{
     overflow: hidden;
     padding: 50px 0;
@@ -586,4 +590,43 @@ span{
 .routine{
     padding-top: 35px;
     background: linear-gradient(to left, transparent 50%, #f1f0b4 50%);
+}
+.form-book{
+    background-color: #b9f09ad7;
+    padding: 15px;
+}
+.form-group {
+    display: inline-block;
+    width: calc(25% - 10px); /* Adjust the width as needed */
+    margin-right: 20px; /* Add space between form elements */
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c8f5eb;
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
