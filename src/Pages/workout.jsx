@@ -87,7 +87,7 @@ const Workout = () => {
         </h3>
         <div style={{ display: "flex", alignItems: "center",justifyContent:'center' }}>
           <img
-            src="src/Images//running.png"
+            src="https://t4.ftcdn.net/jpg/06/01/65/49/360_F_601654907_FgISykN0GQp39MfRAlgg3IBmLDVIZYYk.jpg"
             alt="running image"
             style={{ width: "50%", height: "50vh",marginLeft:'5%' }}
           />
@@ -259,7 +259,7 @@ const Workout = () => {
           enhances strength,<br/> endurance, and overall fitness.
         </p>
         <div>
-                    <h2 style={{ textAlign:'center', marginTop:'15px', marginBottom:'10px', color:'#555'}}>BELOW IS A 30 MINUTE WORKOUT THAT CAN BE FOLLOWED......</h2>
+                    <h2 style={{ textAlign:'center', marginTop:'15px', marginBottom:'10px', color:'#555',fontSize:'30px',fontWeight:'bold'}}>BELOW IS A 30 MINUTE WORKOUT THAT CAN BE FOLLOWED......</h2>
                     <div className="last-container">
                         <div className="video-container">
                             <iframe width="648" height="365" src="https://www.youtube.com/embed/jKTxe236-4U" title="30 MIN FULL BODY WORKOUT - Apartment & Small Space Friendly (No Equipment, No Jumping)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
