@@ -58,12 +58,17 @@ const Nutrition = () => {
         <div className="cont">
           <div>
             <h3 className="hs">NUTRITION</h3>
-            <p className="txt">
+            <div className="flex">
+              <div>
+                <img src="src/Images/nut-1.jpg" alt="image" />
+              </div>
+              <p className="txt">
               Nutrition is about eating a healthy and balanced diet. Food and
               drink provide the energy and nutrients you need to be healthy.
               Understanding these nutrition terms may make it easier for you to
               make better food choices.
             </p>
+            </div>
           </div>
         </div>
         <div>
