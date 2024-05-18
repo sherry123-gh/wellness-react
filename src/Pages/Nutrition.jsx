@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
+import Cardsn from "../components/Cardsn";
 
 const Nutrition = () => {
   let [text, setText] = useState(null);
@@ -56,57 +57,47 @@ const Nutrition = () => {
           <p>Get ready for a sweet enriched balanced diet</p>
         </div>
         <div className="cont">
-          <div>
-            <h3 className="hs">NUTRITION</h3>
-            <div className="flex">
-              <div>
-                <img src="src/Images/nut-1.jpg" alt="image" />
-              </div>
+          <div className="flex gap-[5rem]">
+            <div className="w-[100%]">
+              <img
+                src="src/Images/nut-1.jpg"
+                alt="image"
+              />
+            </div>
+            <div>
+              <h3 className="hs">NUTRITION</h3>
               <p className="txt">
-              Nutrition is about eating a healthy and balanced diet. Food and
-              drink provide the energy and nutrients you need to be healthy.
-              Understanding these nutrition terms may make it easier for you to
-              make better food choices.
-            </p>
+              Nutrition is about eating a healthy and balanced diet. Food
+                  and drink provide the energy and nutrients you need to be
+                  healthy. Understanding these nutrition terms may make it
+                  easier for you to make better food choices.
+              </p>
+              
             </div>
           </div>
         </div>
-        <div>
-          <h4 className="hs">CATEGORIES OF NUTRITION</h4>
-          <p className="txt">
-            Nutrients are normally divided into five categories: Water, protein,
-            carbohydrates, minerals, and vitamins. Water is the main constituent
-            of the body. Two‐thirds of the body is water, thus, an animal can
-            live much longer without feed than water. Water helps the body
-            digest food and carries nutrients to body tissues.
-          </p>
+        <div className="flex gap-[5rem] mx-[5rem]">
+          {
+            text !== null? (
+              text.map((ele)=>{
+                return <Cardsn
+
+                image={`http://localhost:1337${ele.attributes.image.data.attributes.url}`}
+                para={ele.attributes.para}
+                title={ele.attributes.title}
+                
+                />
+              })
+            ):
+            <p>Loading</p>
+          }
         </div>
-        <div>
+        
+        <div className="mt-[3rem]">
           <h2 className="hs">
             7-Day Healthy and Balanced Meal Plan Ideas: Recipes & Prep
           </h2>
         </div>
-
-        {text !== null ? (
-          text.map((ele) => {
-            return (
-              <div className="cont">
-                <div>
-                  <img
-                    src={`http://localhost:1337${ele.attributes.image.data.attributes.url}`}
-                    alt="image for diet"
-                  />
-                </div>
-                <div>
-                  <h3 className="hs">{ele.attributes.title}</h3>
-                  <p className="txt">{ele.attributes.para}</p>
-                </div>
-              </div>
-            );
-          })
-        ) : (
-          <p>Loading from strapi.....</p>
-        )}
 
         <div className="cont">
           <div className="back1">
