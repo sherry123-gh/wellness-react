@@ -169,11 +169,12 @@ header{
     gap: 2rem;
 }
 .service_card{
-    padding: 2rem;
+    padding:2rem;
     text-align: left;
     border-radius:10px;
     box-shadow:5px 5px 20px rgba(0,0,0,0.1);
     cursor: pointer;
+    display: block;
 }
 .service_card span{
     display: inline-block;
