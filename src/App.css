@@ -101,12 +101,10 @@ header{
 }
 .header_form{
     width:100%;
-    max-width: 350px;
-    display:flex;
+    max-width:px;
     padding-top: 30px;
 }
 .header_form form{
-    display: flex;
     gap: 1rem;
     padding: 2rem;
     background-color: white;
@@ -166,7 +164,7 @@ header{
 }
 .service_grid{
     margin-top:4rem;
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
@@ -180,12 +178,14 @@ header{
 .service_card span{
     display: inline-block;
     margin-bottom: 1rem;
-    padding: 10px 20px;
+    padding:5px  15px ;
     font-size: 2.5rem;
     color:#12ac8e;
     background-color: #e9f7f7;
     border-radius:100%;
     transition: 0.3s;
+    padding-top: 30px;
+
 }
 .service_card h4{
     margin-bottom:.5rem;
