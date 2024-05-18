@@ -266,6 +266,13 @@ const Workout = () => {
                         </div>
                     </div>
                 </div>
+                <section className="summary-section">
+      <h2 className="summary-heading">CAUTION</h2>
+      <p className="summary-paragraph">
+      Trainees over age 40 may have to adjust their workout routine to account for injuries or slower recovery times. 
+      While muscle and bone mass decline as you age, you can combat this with proper exercise.
+      </p>
+    </section>
         <p style={{marginTop:'15px', marginBottom:'10px', fontWeight:'bold',padding:'10px'}}>
           After following
           along with the energizing workout video above, you'll feel invigorated
