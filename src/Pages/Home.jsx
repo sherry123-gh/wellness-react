@@ -51,7 +51,7 @@ const Home = () => {
                         </p>
                         <div className="service_grid">
                             <div className="service_card">
-                                <span><img src="src/images/nutrition.jpg" alt=""height="300"width="300" /></span>
+                                <span><img src="src/images/nutrition.jpg" alt=""height="300"width="400" /></span>
                                 <h4>NUTRITION PLANS</h4>
                                 <p>Embarking on a nutrition plan is like planting seeds for a healthier you! Just imagine your body as a 
                                     vibrant garden, with each meal and snack nurturing your health blooms. Your personalized nutrition plan is 
@@ -65,7 +65,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="service_card">
-                        <span><img src="src/images/healthy.jpg" alt=""height="300"width="300"/></span>
+                        <span><img src="src/images/healthy.jpg" alt=""height="300"width="400"/></span>
                         <h4>HEALTHY TIPS</h4>
                         <p>Let's dive into a treasure trove of adorable ways to boost your health! Picture yourself as a wellness 
                             explorer, discovering the secret paths to a happier, healthier life. Start your day with a giggle-filled 
@@ -80,7 +80,7 @@ const Home = () => {
                     </div>
 
                     <div className="service_card">
-                        <span><img src="src/Images/workout.jpg" alt=""height="300"width="300"/></span>
+                        <span><img src="src/Images/workout.jpg" alt=""height="300"width="400"/></span>
                         <h4>WORKOUT ROUTINES</h4>
                         <p>Let's embark on a fitness journey that's as fun as a hopscotch game! When it comes to workouts, think
                             of yourself as a joyful athlete in training. Start with warm-up dances that make your heart skip with 
