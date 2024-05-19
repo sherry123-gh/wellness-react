@@ -46,7 +46,7 @@ const Home = () => {
                     <div className="service_header_content">
                         <h2 className="section_header">Our Services</h2>
                         <p>Beyond simply providing Health care tips, our commitment lies in delivering uparalleled 
-                            srevice tailored 
+                            service tailored 
                             to your unique needs
                         </p>
                         <div className="service_grid">
@@ -62,8 +62,9 @@ const Home = () => {
                                 </p>
                                 <Link to='/nutrition'>Learn More</Link>
                             </div>
-                        </div>
-                    </div>
+                    
+                    
+                    
                     <div className="service_card">
                         <span><img src="src/images/healthy.jpg" alt=""height="300"width="400"/></span>
                         <h4>HEALTHY TIPS</h4>
@@ -91,7 +92,8 @@ const Home = () => {
                         <Link to='/workout'>Learn More</Link>
 
                     </div>
-                    
+                    </div>
+                </div>
                 </div>
             </section>
             <section className="section_container about_container">
