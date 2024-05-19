@@ -229,7 +229,7 @@ const Workout = () => {
             <br />{" "}
           </strong>
           Rotate through each drill for a challenging<br/> full-body workout that
-          enhances strength,<br/> endurance, and overall fitness.
+          enhances strength,<br/> endurance and overall fitness.
         </p>
       </div>
     </div>
