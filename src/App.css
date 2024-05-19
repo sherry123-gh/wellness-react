@@ -463,3 +463,13 @@ span{
     background: linear-gradient(to right, #a2fc60, #fdb67b);
     padding: 3rem;
 }
+.service_card2{
+    padding: 2rem;
+    text-align: left;
+    border-radius:10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.service_card2 h3{
+    color:#fdb67b
+}
