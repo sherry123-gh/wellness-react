@@ -589,7 +589,7 @@ span{
 }
 .routine{
     padding-top: 35px;
-    background: linear-gradient(to left, transparent 50%, #f1f0b4 50%);
+;
 }
 .form-book{
     background-color: #b9f09ad7;
@@ -656,4 +656,44 @@ input[type="submit"]:hover {
       width: 95%;
     }
   }
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   
+  .item {
+    flex: 1 1 30%; /* Grow and shrink as needed, with a base width of 30% */
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .know{
+    padding-top: 8px;
+  }
+  .drill {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  .drill:hover{
+    transform: scale(1.1);
+    transition: background 0.5s, transform 0.5s;
+  }
+  .description {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .item {
+      flex: 1 1 45%; /* Two items per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .item {
+      flex: 1 1 100%; /* One item per row on small screens */
+    }
+  }  

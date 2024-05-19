@@ -81,50 +81,35 @@ const Workout = () => {
           </p>
           </p>
         </div>
-      <div className="routine">
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
+        <div className="days">
+      <div className="item">
+      <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong> Monday<br/> Running for 30 minutes</strong>
         </h3>
-        <div style={{ display: "flex", alignItems: "center",justifyContent:'center' }}>
-          <img
-            src="https://t4.ftcdn.net/jpg/06/01/65/49/360_F_601654907_FgISykN0GQp39MfRAlgg3IBmLDVIZYYk.jpg"
-            alt="running image"
-            style={{ width: "50%", height: "50vh",marginLeft:'5%' }}
-          />
-          <p style={{ flexGrow: "1", color: "#12ac8e",padding:'10px',fontSize:'18px' }}>
-            With its high-intensity nature, running elevates heart rate and
-            promotes fat loss in a relatively short time. <br/>Whether on the
-            treadmill or outdoors, this invigorating session leaves you feeling
-            energized and accomplished, ready to tackle whatever <br/>comes your way.
-          </p>
-          <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px', justifyContent:'center' }}>
+        <img src="https://t4.ftcdn.net/jpg/06/01/65/49/360_F_601654907_FgISykN0GQp39MfRAlgg3IBmLDVIZYYk.jpg" alt="running image" className="drill" />
+            <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px', justifyContent:'center' }} className="know">
             Running for 30 minutes offers a quick and effective cardio workout,
-            perfect for boosting endurance and burning calories. <br/>Engaging
+            perfect for boosting endurance and burning calories. Engaging
             multiple muscle groups throughout the body, it strengthens the legs,
             core, <br/>and cardiovascular system.
           </p>
-          
-        </div>
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
+          <p style={{ flexGrow: "1", color: "#12ac8e",padding:'10px',fontSize:'18px' }} className="know">With its high-intensity nature, running elevates heart rate and
+            promotes fat loss in a relatively short time. Whether on the
+            treadmill or outdoors, this invigorating session leaves you feeling
+            energized and accomplished, ready to tackle whatever <br/>comes your way..</p>
+      </div>
+      <div className="item">
+      <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong> Tuesday<br/> Cycling for 45 minutes</strong>
         </h3>
-        <bodythree>
-        <p style={{flexGrow: '1',fontWeight:'bold', marginLeft:'20px'}}> Make Cycling Part of You..
-                         A 45-minute cycling session is a dynamic cardio workout that boosts fitness and burns calories efficiently.
-                        Engaging large muscle groups in the legs and core, it strengthens endurance and promotes fat loss. </p>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <img
-            src="https://www.health.com/thmb/KIpMvWkBlA5sd5ouYCRJrylo3To=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-135537873-2000-3b57976b084d4731a41f801c6b1af884.jpg"
-            alt="cycling image"
-            style={{ width: "50%",padding:'10px',borderRadius:'40px',marginLeft:'15%' }}
-          />
-          <p style={{ flexGrow: "1",fontSize:'18px',padding:'10px' }}>
+        <img src="https://www.health.com/thmb/KIpMvWkBlA5sd5ouYCRJrylo3To=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-135537873-2000-3b57976b084d4731a41f801c6b1af884.jpg" alt="cycling image" className="drill" />
+        <p style={{ flexGrow: "1",fontSize:'18px',padding:'10px' }} className="know">
             A 45-minute cycling session is a dynamic cardio workout that boosts
             fitness and burns calories efficiently. <br/>Engaging large muscle groups
             in the legs and core, it strengthens endurance and promotes fat
             loss.
           
-          <p style={{ color: "#f87103", flexGrow: "1",padding:'10px',fontSize:'18px' }}>
+          <p style={{ color: "#f87103", flexGrow: "1",padding:'10px',fontSize:'18px' }}className="know">
             With its low-impact nature, cycling is accessible to all fitness
             levels, offering a refreshing way to elevate heart rate and improve
             cardiovascular health. <br/>Whether indoors or outdoors, this energizing
@@ -132,55 +117,48 @@ const Workout = () => {
             ahead.
           </p>
           </p>
-        </div>
-        </bodythree>
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',paddingBottom:'7px'}}>
+      </div>
+      <div className="item">
+      <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',paddingBottom:'7px'}}>
           <strong>
             {" "}
-            Wednesday<br/> HIIT (High-Intensity Interval Training) <br/>for 30 minutes
+            Wednesday HIIT (High-Intensity Interval Training) for 30 minutes
           </strong>
         </h3>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <img
-            src="https://octanefitness.com/app/uploads/2016/01/elliptical-workouts-hiit.jpg"
-            alt="HIIT image"
-            style={{ width: "50%",padding:'7px'}}
-          />
-          <p style={{ flexGrow: "1", color: "#12ac8e",fontSize:'18px', paddingLeft:'7px' }}>
+        <img src="https://octanefitness.com/app/uploads/2016/01/elliptical-workouts-hiit.jpg" alt="HIIT image" className="drill" />
+        <p style={{ flexGrow: "1", color: "#12ac8e",fontSize:'18px', paddingLeft:'7px' }}className="know">
             A HIIT (High-Intensity Interval Training) session is a powerful
             workout that combines bursts of intense exercise with short recovery
-            periods. In just 20 minutes.<br/> HIIT delivers a full-body workout,
+            periods. In just 20 minutes. HIIT delivers a full-body workout,
             torching calories and boosting metabolism. Alternating between
-            high-intensity intervals and brief rest periods <br/>challenges the
+            high-intensity intervals and brief rest periods challenges the
             cardiovascular system and builds endurance.
           </p>
-          <p style={{ color: "#f87103", flexGrow: "1" ,fontSize:'18px'}}>
+          <p style={{ color: "#f87103", flexGrow: "1" ,fontSize:'18px'}}className="know">
             HIIT is known for its efficiency, making it ideal for those with
-            busy schedules. Whether you're doing bodyweight exercises,<br/>
+            busy schedules. Whether you're doing bodyweight exercises,
             sprinting, or using equipment, this fast-paced session leaves you
             feeling exhilarated and accomplished, with benefits that extend
             beyond the workout.
           </p>
-        </div>
-        <marquee style={{backgroundColor:'#fdb67b',fontWeight:'bold'}} behavior="scroll" direction="right">
+      </div>
+    </div>
+    <marquee style={{backgroundColor:'#fdb67b',fontWeight:'bold'}} behavior="scroll" direction="right">
           KEEP ON PUSHING.....
         </marquee>
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',paddingBottom:'7px'}}>
+    <div className="days">
+      <div className="item">
+      <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',paddingBottom:'7px'}}>
           <strong> Thursday<br/></strong> Jumping rope for 15 minutes
         </h3>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <img
-            src="https://runningmagazine.ca/wp-content/uploads/2019/09/skipping-copy-e1568127526898.jpg"
-            alt="jumping rope"
-            style={{ width: "50%",padding:'7px', borderRadius:'25px' }}
-          />
-          <p style={{ flexGrow: "1",padding:'15px',fontSize:'18px',padding:'10px'}}>
+        <img src="https://runningmagazine.ca/wp-content/uploads/2019/09/skipping-copy-e1568127526898.jpg" alt="jumping rope" className="drill" />
+        <p style={{ flexGrow: "1",padding:'15px',fontSize:'18px',padding:'10px'}}className="know">
             Jumping rope involves swinging a rope over the body and jumping over
             it repeatedly, engaging multiple muscle groups for a full-body
             workout. <br/>It's versatile, offering various techniques for all fitness
             levels, from basic jumps to advanced tricks.
           
-          <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px' }}>
+          <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px' }}className="know">
             This simple yet effective exercise improves cardiovascular health,
             coordination, and agility. <br/>With its portability and affordability,
             jumping rope is an excellent addition to any workout routine,
@@ -188,58 +166,43 @@ const Workout = () => {
             calories.
           </p>
           </p>
-        </div>
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',padding:'7px'}}>
+      </div>
+      <div className="item">
+      <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555',padding:'7px'}}>
           <strong> Friday<br/> Swimming for 30 minutes</strong>
         </h3>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <img
-            src="https://www.monitor.co.ug/resource/image/1879340/landscape_ratio3x2/1620/1080/9a2fc6b029d0f6bb86f02100b8e4f6c3/TK/health07pix.jpg"
-            alt="man swimming"
-            style={{ width: "50%",padding:'8px',borderRadius:'30px',marginLeft:'8%' }}
-          />
-          <p style={{ flexGrow: "1", color: "#12ac8e",paddingLeft:'7px', fontSize:'18px' }}>
+        <img src="https://www.monitor.co.ug/resource/image/1879340/landscape_ratio3x2/1620/1080/9a2fc6b029d0f6bb86f02100b8e4f6c3/TK/health07pix.jpg" alt="man swimming" className="drill" />
+        <p style={{ flexGrow: "1", color: "#12ac8e",paddingLeft:'7px', fontSize:'18px' }}className="know" >
             Swimming for 30 minutes is a fantastic cardiovascular workout that
-            engages the entire body, offering numerous health benefits. <br/>This
+            engages the entire body, offering numerous health benefits. This
             low-impact exercise improves cardiovascular endurance, muscle
             strength, and flexibility while reducing stress on the joints.
-            Whether doing <br/>laps in a pool or swimming in open water.
+            Whether doing laps in a pool or swimming in open water.
           </p>
           <p style={{ color: "#f87103", flexGrow: "1",fontSize:'18px' }}>
             It provides a full-body workout that targets muscles in the arms,
-            legs, core, and back. <br/>Additionally, swimming enhances lung capacity
-            and promotes relaxation, <br/>making it an excellent choice for both
+            legs, core, and back. Additionally, swimming enhances lung capacity
+            and promotes relaxation, making it an excellent choice for both
             fitness and stress relief. Incorporating swimming into a regular
             exercise routine can help improve overall fitness levels and
-            contribute to a <br/>healthy and active lifestyle
+            contribute to a healthy and active lifestyle
           </p>
-        </div>
-        <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
+      </div>
+      <div className="item">
+      <h3 style={{textShadow:'5px 5px 4px rgb(50, 245, 66)',textAlign:'center',marginTop:'20px',fontSize:'x-large',marginBottom:'5px',color:'#555'}}>
           <strong>
             {" "}
-            Saturday<br/> Circuit training (mix of cardio and strength exercises)
-            <br/>for 40 minutes
+            Saturday Circuit training (mix of cardio and strength exercises)for 40 minutes
           </strong>
         </h3>
-        <p style={{ flexGrow: "1",fontWeight:'bold', marginLeft:'20px' }}>
+        <img src="https://www.anytimefitness.com/wp-content/uploads/2023/09/Beginner-Circuit-Workout-1600x900-1.jpg" alt="lady doing circuit training" className="drill" />
+        <p style={{ flexGrow: "1",fontWeight:'bold', marginLeft:'20px',color:'#f87103' }}className="know">
           Circuit training blends strength and cardio exercises in a
-          time-efficient format. <br/>With minimal rest between drills, it targets
-          multiple muscle groups and boosts heart rate for calorie <br/>burn and
+          time-efficient format. With minimal rest between drills, it targets
+          multiple muscle groups and boosts heart rate for calorie burn and
           fitness gains. Here's a sample 10-drill circuit.
         </p>
-        <img
-          src="https://www.anytimefitness.com/wp-content/uploads/2023/09/Beginner-Circuit-Workout-1600x900-1.jpg"
-          alt="lady doing circuit training"
-          style={{
-            width: "100%",
-            height: "auto",
-            display: "block",
-            borderRadius: "10%",
-            padding:'10px'
-          }}
-        />
-        <h2 style={{textAlign:'center',fontWeight:'bold',padding:'20px'}}>This is what to follow for the HIIT drill</h2>
-        <p style={{ columnCount: "2" }}>
+        <p >
           <strong>
             {" "}
             1. Jumping jacks (5 times)
@@ -258,6 +221,9 @@ const Workout = () => {
           Rotate through each drill for a challenging<br/> full-body workout that
           enhances strength,<br/> endurance, and overall fitness.
         </p>
+      </div>
+    </div>
+      <div className="routine">  
         <div>
                     <h2 style={{ textAlign:'center', marginTop:'15px', marginBottom:'10px', color:'#555',fontSize:'30px',fontWeight:'bold'}}>BELOW IS A 30 MINUTE WORKOUT THAT CAN BE FOLLOWED......</h2>
                     <div className="last-container">
@@ -339,7 +305,7 @@ const Workout = () => {
               <p>
                 <strong>
                   {" "}
-                  Regular exercise improves cardiovascular health, aids in
+                  Regular exercise improves cardiovascular health which aids in
                   weight management, and boosts mood by releasing endorphins.
                   Strength training builds muscle strength, enhances metabolism,
                   and improves bone health. Flexibility exercises reduce muscle
