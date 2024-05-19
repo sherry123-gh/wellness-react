@@ -481,34 +481,6 @@ span{
     display: flex;
     
 }
-#showcase{
-    overflow: hidden;
-    padding: 50px 0;
-}
-.work{
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-.text-overlay{
-    
-    position: absolute;
-    bottom: 25px;
-    left: 10%;
-    width: 40%;
-    background-color:white;
-    padding: 10px;
-    box-sizing: border-box;
-    font-family: arial, sans-serif;
-    text-align: center;
-}
-.text-overlay:hover{
-    transform: scale(1.1);
-    transition: background 0.5s, transform 0.5s;
-    background-color: #12ac8e;
-}
 .service-images {
     display: flex;
     flex-wrap: wrap;
@@ -597,8 +569,8 @@ span{
 }
 .form-group {
     display: inline-block;
-    width: calc(25% - 10px); /* Adjust the width as needed */
-    margin-right: 20px; /* Add space between form elements */
+    width: calc(25% - 10px);
+    margin-right: 20px;
     vertical-align: top;
     padding-bottom: 20px;
 }
@@ -615,20 +587,18 @@ input[type="text"], input[type="email"], input[type="tel"] {
 input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
     background-color: #fff;
 }
-
-input[type="submit"] {
+.form-group button{
     margin-top: 15px;
     padding: 12px 20px;
-    background-color: #4caf50;
+    background-color: #139418;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
-input[type="submit"]:hover {
-    background-color: #45a049;
+.handsin:hover{
+     background-color: #45c54c;
 }
 .summary-section {
     background-color: #d8f7d7;
@@ -663,7 +633,7 @@ input[type="submit"]:hover {
   }
   
   .item {
-    flex: 1 1 30%; /* Grow and shrink as needed, with a base width of 30% */
+    flex: 1 1 30%;
     margin: 10px;
     box-sizing: border-box;
     text-align: center;

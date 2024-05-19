@@ -1,6 +1,16 @@
+import React from 'react'
 import { Link } from "react-router-dom";
 
+
 const Workout = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert('Appointment booked successfully');
+    document.getElementById("name").value="";
+    document.getElementById("age").value="";
+    document.getElementById("email").value="";
+    document.getElementById("phone").value="";
+  };
   return (
     <div>
       <header>
@@ -364,7 +374,7 @@ const Workout = () => {
                 <input type="tel" id="phone" name="phone" required/>
             </div>
             <div className="form-group">
-                <input type="submit" value="Book Appointment"></input>
+                <button className='handsin' onClick={handleSubmit}>Book Appointment</button>
             </div>
         </form>
     </div>
