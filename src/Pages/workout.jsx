@@ -50,7 +50,7 @@ const Workout = () => {
       <div className="content-container">
       <p style={{ fontSize:'20px'}}>
           Welcome to the <strong style={{color:'black'}}>Live</strong><strong style={{color:'orange', fontStyle:'italic'}}>Good</strong>  weekly workout routine! Whether you're looking to lose
-          weight, maintain your shape, or simply stay active, you've come to the
+          weight, maintain your shape or simply stay active, you've come to the
           right place. Below, you'll find sample workout plans tailored to
           different fitness goals. Feel free to customize them to fit your
           preferences and schedule. Let's get started on your journey to a
@@ -63,7 +63,7 @@ const Workout = () => {
           >
             GOOD HEALTH STARTS NOW
           </h1>
-        <div className="start-view" style={{ display: "flex", alignItems: "center",backgroundColor:'#f3f1f0', justifyContent:'center'}}>
+        <div className="start-view" style={{ display: "flex", alignItems: "center",backgroundColor:'#f3f1f0', justifyContent:'center',}}>
           <img
             src="https://t4.ftcdn.net/jpg/01/79/81/77/360_F_179817756_QzTocli57q9G6a1Oe7kJtoMS5dNMU8cl.jpg"
             alt="workout image"
@@ -267,7 +267,7 @@ const Workout = () => {
           <img
             src="https://images.ctfassets.net/0k812o62ndtw/1Mln8WZSFEVPMiHmV6Q7UA/b423e071cd0f056651979ea94b2b3ce4/FitnessHangover_endb1021678c8f2ed2ac0e7653d1ef5cd6.jpg?fm="
             alt="lady resting"
-            style={{ width: "50%", padding:'10px', borderRadius:'35px' }}
+            style={{ width: "45%", padding:'10px', borderRadius:'35px' }}
           />
           <p style={{ flexGrow: "1", color: "#12ac8e", marginLeft:'20px',fontSize:'18px' }}>
             Rest days are crucial for allowing the body to recover and adapt to
