@@ -41,29 +41,27 @@ const Health = () => {
         </div>
 
           <div className="intro">
-            <div><img src="src/Images//healthy.jpg" alt="image" width=""/></div>
+            <img src="src/Images//healthy.jpg" alt="image" width="400" height="600"/>
 
-            <div>
+            
               <p>
                 Empower your well-being with these invaluable healthy tips designed to invigorate your mind, body, and soul.
                 Here's an example of transformative tips given on this page to fuel your journey towards optimal health and vitality.
+                            Diet and Nutrition Tips,
+                            Skin Health Tips,
+                            Weight Loss and Gain Tips,
+                            Hydration Tips,
+                            Younger Looks,
+                            Hair Growth Tips,
+                            Suplements for energy among others,
               </p>
-              
-                            <h3>-Diet and Nutrition Tips</h3>
-                            <h3>-Skin Health Tips</h3>
-                            <h3>-Weight Loss and Gain Tips</h3>
-                            <h3>-Hydration Tips</h3>
-                            <h3>-Younger Looks</h3>
-                            <h3>-Hair Growth Tips</h3>
-                            <h3>-Suplements for energy.*among others</h3>
-              
             </div>
-          </div>
+          
         </section>
 
         <section>
           <div className="service_card2 ">
-            <h1><span>1.Diet and Nutrition Tips</span></h1>
+            <h1><span><b>1.Diet and Nutrition Tips</b></span></h1>
             <br/>
             <div className="Tips">
               <h3>*Here are some specific diet tips to practice.*</h3>
@@ -122,7 +120,7 @@ const Health = () => {
             </p>
             <br/>
             <div className="Tips">
-              <h3>Some Nutrition Tips To practice:</h3>
+              <h3><b>Some Nutrition Tips To practice:</b></h3>
             </div>
 
             <br/>
@@ -231,7 +229,7 @@ const Health = () => {
 
                   <section>
                   <div className="service_card2 ">
-                      <h1><span>4. Weight Gain Tips</span></h1>
+                      <h1><span><b>4. Weight Gain Tips</b></span></h1>
 
                       <div id="gain"><img src="src/Images//gainweight.jpg" alt="image"></img></div>
 
@@ -274,7 +272,7 @@ const Health = () => {
 
                   <section>
                   <div className="service_card2 ">
-                      <h1><span>5. Hydration Tips</span></h1>
+                      <h1><span><b>5. Hydration Tips</b></span></h1>
 
                       <div id="hydration"><img src="src/Images//hydration.webp" alt="image"/></div>
 
@@ -294,7 +292,7 @@ const Health = () => {
 
                   <section>
                   <div className="service_card2 ">
-                      <h1><span>6. Tips For Younger Looks</span></h1>
+                      <h1><span><b>6. Tips For Younger Looks</b></span></h1>
 
                       <div id="younger"><img src="src/Images//younger.jpg" alt="image"/></div>
 
@@ -343,7 +341,7 @@ const Health = () => {
 
                   <section>
                   <div className="service_card2 ">
-                      <h1><span>7. Hair Growth Tips</span></h1>
+                      <h1><span><b>7. Hair Growth Tips</b></span></h1>
 
                       <div id="hair"><img src="src/Images//hairgrowth.webp" alt="image"/></div>
                       <h5>Practice these tips, and you will have results of stronger, thicker, longer and healthier hair.</h5>
@@ -382,7 +380,7 @@ const Health = () => {
 
                   <section>
                   <div className="service_card2 ">
-                      <h1><span>8.Energy Suplememts</span></h1>
+                      <h1><span><b>8.Energy Suplememts</b></span></h1>
 
                       <div id="energy"><img src="src/Images//energy.webp" alt="image"/></div>
                       <h5>There are so many energy supplements available, such as:</h5>

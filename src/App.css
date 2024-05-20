@@ -12,6 +12,7 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    
 }
 .section_container{
     max-width:var(--max-width);
@@ -652,4 +653,25 @@ header{
       width: 95%;
     }
   }
+ .intro {
+    display:flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    max-width: 900px;
+ } 
+ .intro img  {
+    border-radius: 10px;  
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-bottom: 30px;
+ }
+ .intro p{
+    display:flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-left: 70px;
+ }
   
