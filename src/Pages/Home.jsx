@@ -10,12 +10,12 @@ const Home = () => {
                     <div className="nav-logo">Live<span>Good</span></div>
                     <ul className="nav-links">
                         <Link to='/'><li className="link">HOME</li></Link>
-                        <Link><li className="link">SERVICES</li></Link>
+                        <Link to= '/nutrition'><li className="link">SERVICES</li></Link>
                         <Link to='/health'><li className="link">HEALTHY TIPS</li></Link>
                         <Link to='/nutrition'><li className="link">NUTRITION PLAN</li></Link>
                         <Link to='/workout'><li className="link">WORKOUT ROUTINE</li></Link>
                     </ul>
-                    <button className="btn">Contact Us</button>
+                    <button className="btn"> <Link to='/footer'>Contact Us</Link></button>
                 </nav>
                 <div className="section_container header_container">
                     <div className="header_container">
@@ -27,7 +27,7 @@ const Home = () => {
                         encompassing balanced nutrition, regular physical activity,
                         mental well-being, and mindful choices.
                         </p>
-                        <button className="btn">LEARN MORE</button>   
+                        <button className="btn"> <Link to='/health'>LEARN MORE</Link></button>  
                     </div>
                     <div className="header_form">
                         <form>
