@@ -20,7 +20,7 @@ const Footer = () => {
     ]
 
     return ( 
-        <footer className="footer">
+        <footer id="contact-footer" className="footer">
                 <div className="section_container footer_container">
                     <div className="footer_col">
                         <h3>Live<span>Good</span></h3>
@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>
                     <div className="footer_bar">
                         <div className="footer_bar_content">
-                            <p>Copyright © 2024 code crushers. All rights rescerved</p>
+                            <p>Copyright © 2024 code crushers. All rights reserved</p>
                             <div className="footer_socials">
                                 <i className='bx bxl-twitter'></i>
                                 <i className='bx bxl-facebook'></i>
