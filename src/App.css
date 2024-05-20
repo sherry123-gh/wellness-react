@@ -37,7 +37,6 @@
 }
 
 img{
-    width: 100%;
     display:flex;
 }
 a{
@@ -117,7 +116,7 @@ header{
     padding-top: 30px;
 }
 .header_form form{
-    display: flex;
+    display:flex;
     gap: 1rem;
     padding: 2rem;
     background-color: white;
@@ -125,9 +124,6 @@ header{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
     }
 .header_form input{
-    padding: 1rem;
-    outline: none;
-    border: none;
     font-size: 1rem;
     color:#12ac8e;
     background-color: #e9f7f7;
@@ -149,7 +145,7 @@ header{
     color:#12ac8e;
 }
 .service_header{
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content:space-between;
     gap: 2rem;
@@ -175,18 +171,19 @@ header{
     color: white;
     background-color: #12ac8e;
 }
-.service_grid{
+.service_grid {
     margin-top:4rem;
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 .service_card{
-    padding: 2rem;
+    padding:2rem;
     text-align: left;
     border-radius:10px;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
     cursor: pointer;
+    
 }
 .service_card span{
     display: inline-block;
@@ -194,7 +191,6 @@ header{
     padding: 10px 20px;
     font-size: 2.5rem;
     color:#12ac8e;
-    background-color: #e9f7f7;
     border-radius:100%;
     transition: 0.3s;
 }
@@ -319,7 +315,7 @@ header{
     color: #13ae8f;
 }
 
-span{
+.span{
     color: #fb923c;
     font-style: italic;
 }
@@ -597,7 +593,7 @@ span{
     padding-bottom: 20px;
 }
 
-input[type="text"], input[type="email"], input[type="tel"] {
+.input[type="text"], input[type="email"], input[type="tel"],input[type="name"],input[type="age"] {
     width: 100%;
     padding: 12px;
     border: none;
@@ -606,10 +602,14 @@ input[type="text"], input[type="email"], input[type="tel"] {
     transition: background-color 0.3s ease;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+.input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus,input[type="name"],input[type="age"] {
     background-color: #fff;
 }
 .form-group button{
+    
+}
+
+.input[type="submit"] {
     margin-top: 15px;
     padding: 12px 20px;
     background-color: #139418;
@@ -619,8 +619,17 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.handsin{
+    color: black;
+    background-color: #139418;
+    padding: 20px;
+    border-radius: 5px;
+}
 .handsin:hover{
      background-color: #45c54c;
+}
+.input[type="submit"]:hover {
+    background-color: #45a049;
 }
 .summary-section {
     background-color: #d8f7d7;
@@ -680,12 +689,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
   
   @media (max-width: 768px) {
     .item {
-      flex: 1 1 45%; /* Two items per row on medium screens */
+      flex: 1 1 45%; 
     }
   }
   
   @media (max-width: 480px) {
     .item {
-      flex: 1 1 100%; /* One item per row on small screens */
+      flex: 1 1 100%; 
     }
-  }  
+  }

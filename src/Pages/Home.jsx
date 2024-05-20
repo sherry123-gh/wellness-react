@@ -46,12 +46,12 @@ const Home = () => {
                     <div className="service_header_content">
                         <h2 className="section_header">Our Services</h2>
                         <p>Beyond simply providing Health care tips, our commitment lies in delivering uparalleled 
-                            srevice tailored 
+                            service tailored 
                             to your unique needs
                         </p>
                         <div className="service_grid">
                             <div className="service_card">
-                                <span><img src="src/images/nutrition.jpg" alt=""height="300"width="250" /></span>
+                                <span><img src="src/images/nutrition.jpg" alt=""height="300"width="400" /></span>
                                 <h4>NUTRITION PLANS</h4>
                                 <p>Embarking on a nutrition plan is like planting seeds for a healthier you! Just imagine your body as a 
                                     vibrant garden, with each meal and snack nurturing your health blooms. Your personalized nutrition plan is 
@@ -62,10 +62,11 @@ const Home = () => {
                                 </p>
                                 <Link to='/nutrition'>Learn More</Link>
                             </div>
-                        </div>
-                    </div>
+                    
+                    
+                    
                     <div className="service_card">
-                        <span><img src="src/images/healthy.jpg" alt=""height="300"width="250"/></span>
+                        <span><img src="src/images/healthy.jpg" alt=""height="300"width="400"/></span>
                         <h4>HEALTHY TIPS</h4>
                         <p>Let's dive into a treasure trove of adorable ways to boost your health! Picture yourself as a wellness 
                             explorer, discovering the secret paths to a happier, healthier life. Start your day with a giggle-filled 
@@ -80,7 +81,7 @@ const Home = () => {
                     </div>
 
                     <div className="service_card">
-                        <span><img src="src/Images/workout.jpg" alt=""height="300"width="250"/></span>
+                        <span><img src="src/Images/workout.jpg" alt=""height="300"width="400"/></span>
                         <h4>WORKOUT ROUTINES</h4>
                         <p>Let's embark on a fitness journey that's as fun as a hopscotch game! When it comes to workouts, think
                             of yourself as a joyful athlete in training. Start with warm-up dances that make your heart skip with 
@@ -91,7 +92,8 @@ const Home = () => {
                         <Link to='/workout'>Learn More</Link>
 
                     </div>
-                    
+                    </div>
+                </div>
                 </div>
             </section>
             <section className="section_container about_container">
@@ -111,7 +113,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="about_image">
-                    <img src="src/Images/body photo.jpg" alt="" height="400" width="300"/>
+                    <img src="src/Images/body photo.jpg" alt="" height="550" width="500"/>
                </div>        
             </section>
             <Footer/>
