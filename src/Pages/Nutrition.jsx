@@ -7,7 +7,7 @@ const Nutrition = () => {
   let [text, setText] = useState(null);
 
   const fetchData = () => {
-    let apiUrl = "http://localhost:1337/api/contents?populate=*";
+    let apiUrl = "https://strapi-wellness-site.onrender.com//api/contents?populate=*";
     fetch(apiUrl)
       .then((response) => {
         return response.json();
