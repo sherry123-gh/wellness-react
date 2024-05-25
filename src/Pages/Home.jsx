@@ -66,7 +66,7 @@ const Home = () => {
                     
                     
                     <div className="service_card">
-                        <span><img src={"src/images/healthy.jpg"} alt=""height="300"width="400"/></span>
+                        <span><img src={"src/images/healthy.jpg"}alt=""height="300"width="400"/></span>
                         <h4>HEALTHY TIPS</h4>
                         <p>Let's dive into a treasure trove of adorable ways to boost your health! Picture yourself as a wellness 
                             explorer, discovering the secret paths to a happier, healthier life. Start your day with a giggle-filled 
