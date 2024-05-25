@@ -652,9 +652,20 @@ header{
     .summary-section {
       width: 95%;
     }
+    .intro{
+        width: %;
+        margin-right: %;
+  
+      }
+      .intro p{
+         width :40%;
+      }
+      
   }
+ 
+  
+
  .intro {
-    display:flex;
     padding-top: 20px;
     justify-content: space-between;
     max-width: 900px;
@@ -664,14 +675,12 @@ header{
     display:flex;
     margin-top: 30px;
     justify-content: space-between;
-    margin-left: 70px;
+    margin-left: 0px;
     margin-bottom: 30px;
  }
- .intro p{
-    display:flex;
+.intro p{
     padding-top: 20px;
     justify-content: space-between;
     max-width: 900px;
-    margin-left: 70px;
  }
   

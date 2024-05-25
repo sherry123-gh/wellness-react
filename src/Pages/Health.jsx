@@ -41,7 +41,7 @@ const Health = () => {
         </div>
 
           <div className="intro">
-            <img src="src/Images//healthy.jpg" alt="image" width="400" height="600"/>
+            <img src={"src/Images//healthy.jpg" }alt="image" width="400" height="600"/>
 
             
               <p>
@@ -67,7 +67,7 @@ const Health = () => {
               <h3>*Here are some specific diet tips to practice.*</h3>
             </div>
             
-            <div id="diet"><img src="src/Images//diet-and-nutrition.jpg" alt="image" width=""/></div>
+            <div id="diet"><img src={"src/Images//diet-and-nutrition.jpg"} alt="image" width=""/></div>
             
             <h3>-Eat More Plant-Based Foods</h3>
             <p>
@@ -162,7 +162,7 @@ const Health = () => {
                 <h1><span>2.Skin Health Tips</span></h1>
                 <h3>*Heres What We Can Do For Clear And Healthy Skin*</h3>
 
-                <div id="skin"><img src="src/Images//skin care.webp" alt="image"/></div>
+                <div id="skin"><img src={"download.jpg"}/></div>
                 <h3>-Maintain a blanced diet rich in fruits and vegetables.</h3>
 
                 <div>
@@ -208,7 +208,7 @@ const Health = () => {
                       <h1><span>3.Weight Loss Tips</span></h1>
                       <h3>*Lets Dive Into Our Simple Weight Loss Tips.</h3>
 
-                      <div id="weight"><img src="src/Images//weightloss.webp" alt="image"/></div>
+                      <div id="weight"><img src={"src/Images//weightloss.webp"} alt="image"/></div>
                       <h5>
                         Embarking on a weight loss journey can be both exciting and challenging. Whether you're looking to shed a few pounds for health reasons or to feel more confident in your ownskin, it's important to approach weight loss in a sustainable and healthy way. With that in mind, here are some practical tips to help you achieve your weight loss goals and improve your overall wellbeing.
                       </h5>
@@ -231,7 +231,7 @@ const Health = () => {
                   <div className="service_card2 ">
                       <h1><span><b>4. Weight Gain Tips</b></span></h1>
 
-                      <div id="gain"><img src="src/Images//gainweight.jpg" alt="image"></img></div>
+                      <div id="gain"><img src={"src/Images//gainweight.jpg"} alt="image"></img></div>
 
                       
                         <h5>
@@ -274,7 +274,7 @@ const Health = () => {
                   <div className="service_card2 ">
                       <h1><span><b>5. Hydration Tips</b></span></h1>
 
-                      <div id="hydration"><img src="src/Images//hydration.webp" alt="image"/></div>
+                      <div id="hydration"><img src={"src/Images//hydration.webp"} alt="image"/></div>
 
                       <h3>I know many of us have persnally struggled with keeping ourselves hydrated, especially with water. And thats why our wellness site is here to solve this task with you.</h3>
                       <p>
@@ -294,7 +294,7 @@ const Health = () => {
                   <div className="service_card2 ">
                       <h1><span><b>6. Tips For Younger Looks</b></span></h1>
 
-                      <div id="younger"><img src="src/Images//younger.jpg" alt="image"/></div>
+                      <div id="younger"><img src={"src/Images//younger.jpg"} alt="image"/></div>
 
                       <h3>-Stay Hydrated:</h3>
                       <p>
@@ -343,7 +343,7 @@ const Health = () => {
                   <div className="service_card2 ">
                       <h1><span><b>7. Hair Growth Tips</b></span></h1>
 
-                      <div id="hair"><img src="src/Images//hairgrowth.webp" alt="image"/></div>
+                      <div id="hair"><img src={"src/Images//hairgrowth.webp" } alt="image"/></div>
                       <h5>Practice these tips, and you will have results of stronger, thicker, longer and healthier hair.</h5>
                       <h3>-Healthy Diet:</h3>
                       <p>
@@ -382,7 +382,7 @@ const Health = () => {
                   <div className="service_card2 ">
                       <h1><span><b>8.Energy Suplememts</b></span></h1>
 
-                      <div id="energy"><img src="src/Images//energy.webp" alt="image"/></div>
+                      <div id="energy"><img src={"src/Images//energy.webp" }alt="image"/></div>
                       <h5>There are so many energy supplements available, such as:</h5>
                       <h3>-Caffeine Pills:</h3>
                       <p>
