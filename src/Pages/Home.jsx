@@ -51,7 +51,7 @@ const Home = () => {
                         </p>
                         <div className="service_grid">
                             <div className="service_card">
-                                <span><img src="nutrition.jpg" alt="" height="300"width="400" /></span>
+                                <span><img src={"nutrition.jpg"} alt="" height="300"width="400" /></span>
                                 <h4>NUTRITION PLANS</h4>
                                 <p>Embarking on a nutrition plan is like planting seeds for a healthier you! Just imagine your body as a 
                                     vibrant garden, with each meal and snack nurturing your health blooms. Your personalized nutrition plan is 
