@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 import Cardsn from "../components/Cardsn";
-import img5 from "../../src/Images/body nut-1.jpg"
+import img5 from "../../src/Images/nut-1.jpg"
 
 const Nutrition = () => {
   let [text, setText] = useState(null);
