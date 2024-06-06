@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import img1 from "/src/images/nutriton.jpg"
 import img2 from "/src/images/healthy.jpg"
 import img3 from "/src/images/workout.jpg"
+import img4 from "/src/images/photo.jpg"
 
 
 
@@ -118,7 +119,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="about_image">
-                    <img src={"src/Images/body photo.jpg"} alt="" height="550" width="500"/>
+                    <img src={img4} alt="" height="550" width="500"/>
                </div>        
             </section>
             <Footer/>
