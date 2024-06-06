@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import img1 from "/src/images/nutriton.jpg"
-import img2 from "/src/images/healthy.jpg"
-import img3 from "/src/images/workout.jpg"
-import img4 from "/src/images/photo.jpg"
+import img1 from "../../src/Images/nutrition.jpg"
+import img2 from "../../src/Images/healthy.jpg"
+import img3 from "../../src/Images/workout.jpg"
+import img4 from "../../src/Images/body photo.jpg"
 
 
 
