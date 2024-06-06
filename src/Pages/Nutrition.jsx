@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 import Cardsn from "../components/Cardsn";
+import img5 from "../../src/Images/body nut-1.jpg"
 
 const Nutrition = () => {
   let [text, setText] = useState(null);
@@ -60,7 +61,7 @@ const Nutrition = () => {
           <div className="flex gap-[5rem]">
             <div className="w-[100%]">
               <img
-                src="src/Images/nut-1.jpg"
+                src={img5}
                 alt="image"
               />
             </div>
