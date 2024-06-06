@@ -82,7 +82,7 @@ const Nutrition = () => {
               text.map((ele)=>{
                 return <Cardsn
 
-                image={`http://localhost:1337${ele.attributes.image.data.attributes.url}`}
+                image={ele.attributes.image.data.attributes.url}
                 para={ele.attributes.para}
                 title={ele.attributes.title}
                 
